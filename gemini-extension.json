@@ -1,5 +1,6 @@
 {
   "name": "sonmat",
-  "version": "0.2.0",
-  "description": "손맛 — 범용 자율 루프. 검증규율 + domain hints for Gemini CLI."
+  "version": "0.2.1",
+  "description": "손맛 — 범용 자율 루프. 검증규율 + domain hints for Gemini CLI.",
+  "contextFileName": "GEMINI.md"
 }

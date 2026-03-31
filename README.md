@@ -8,7 +8,8 @@
 ## 설치
 
 ```bash
-gemini extensions install https://github.com/jun0-ds/sonmat-gemini
+# ~/.gemini/extensions/ 에 클론
+git clone https://github.com/jun0-ds/sonmat-gemini.git ~/.gemini/extensions/sonmat
 ```
 
 ## 특징
@@ -35,8 +36,9 @@ sonmat-gemini/
 
 ## 사용법
 
-설치 후 Gemini CLI를 시작하면 sonmat이 자동으로 동작합니다.
-도메인 자동 판단, 규율 주입, 에스컬레이션 등은 Claude Code 버전과 동일합니다.
+설치 후 Gemini CLI를 시작하면 `contextFileName`으로 지정된 GEMINI.md를 통해 규율이 로드됩니다.
+
+> **Note**: Gemini CLI는 현재 공식 훅 시스템이 없습니다. 도메인 자동 감지는 `hooks/session-start.sh`를 수동 실행하거나 셸 alias로 연결하세요. 자세한 내용은 `hooks/README.md` 참조.
 
 ## 라이선스
 

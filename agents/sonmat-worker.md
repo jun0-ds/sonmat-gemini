@@ -2,15 +2,13 @@
 name: sonmat-worker
 description: 범용 워커 에이전트. 규율은 디스패치 시 프롬프트로 주입.
 tools:
-  - Read
-  - Write
-  - Edit
-  - Bash
-  - Grep
-  - Glob
-  - Skill
-  - WebSearch
-  - WebFetch
+  - read_file
+  - read_many_files
+  - write_file
+  - edit
+  - run_shell_command
+  - google_web_search
+  - web_fetch
 ---
 
 ## 역할
